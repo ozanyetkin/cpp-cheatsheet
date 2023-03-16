@@ -28,3 +28,44 @@ int main()
 
     return 0;
 }
+
+#include <iostream>
+
+int main() {
+
+    int hunger = true;
+    int anger = true;
+
+    // Write the code below:
+    if (hunger && anger) {
+        std::cout << "Hangry";
+    }
+
+}
+
+#include <iostream>
+
+int main() {
+
+    int day = 6;
+
+    // Write the code below:
+    if (day == 6 || day == 7) {
+        std::cout << "Weekend";
+    }
+
+}
+
+#include <iostream>
+
+int main() {
+  
+  bool logged_in = false;
+  
+  // Write the code below:
+  if (!logged_in)
+  {
+    std::cout << "Try again";
+  }
+  
+}

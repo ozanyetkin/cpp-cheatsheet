@@ -71,5 +71,18 @@
         "fstream": "cpp",
         "sstream": "cpp"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorCustomizations": {
+        "panel.background": "#000000",
+        "editor.background": "#000000",
+        "breadcrumb.background": "#000000",
+        "statusBar.background": "#000000",
+        "sideBar.background": "#000000",
+        "activityBar.background": "#000000",
+        "terminal.background": "#000000",
+        "tab.inactiveBackground": "#000000",
+        "editorGroupHeader.tabsBackground":"#000000"
+    }
 }

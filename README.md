@@ -62,6 +62,38 @@ cpp-cheatsheet/
 │   ├── scope.cpp        # Variable scope
 │   └── voids.cpp        # Void functions
 │
+├── 07_pointers/         # Pointers and memory addresses
+│   ├── basic_pointers.cpp    # Introduction to pointers
+│   ├── null_pointers.cpp     # Null pointer handling
+│   └── pointer_arithmetic.cpp # Pointer arithmetic with arrays
+│
+├── 08_classes/          # Object-Oriented Programming basics
+│   ├── basic_class.cpp  # Class definition and objects
+│   ├── constructors.cpp # Constructors and destructors
+│   └── encapsulation.cpp # Private members, getters, setters
+│
+├── 09_inheritance/      # Inheritance and polymorphism
+│   ├── basic_inheritance.cpp # Base and derived classes
+│   └── polymorphism.cpp      # Virtual functions, overriding
+│
+├── 10_file_io/          # File input/output operations
+│   ├── write_file.cpp   # Writing to files
+│   ├── read_file.cpp    # Reading from files
+│   └── append_file.cpp  # Appending to files
+│
+├── 11_templates/        # Generic programming
+│   ├── function_templates.cpp # Template functions
+│   └── class_templates.cpp    # Template classes
+│
+├── 12_stl/              # Standard Template Library
+│   ├── stl_vector.cpp   # Advanced vector operations
+│   ├── stl_map.cpp      # Map for key-value pairs
+│   └── stl_set.cpp      # Set for unique elements
+│
+├── 13_exceptions/       # Exception handling
+│   ├── basic_exception.cpp   # Try-catch basics
+│   └── multiple_catch.cpp    # Multiple exception types
+│
 └── _bugs/               # Debugging exercises (FIXED)
     ├── fortune.cpp      # Fixed: == vs = bug
     ├── ratio.cpp        # Fixed: integer division
@@ -165,6 +197,43 @@ g++ filename.cpp && ./a.out
    - Learn: fortune.cpp (comparison vs assignment)
    - Learn: ratio.cpp (integer vs floating-point division)
 
+### Advanced Path
+
+1. **Pointers:** `07_pointers/`
+
+   - Understand memory addresses and pointers
+   - Master: basic_pointers.cpp, pointer_arithmetic.cpp
+
+2. **Object-Oriented Programming:** `08_classes/`
+
+   - Learn OOP fundamentals with classes
+   - Start with: basic_class.cpp, constructors.cpp, encapsulation.cpp
+
+3. **Inheritance:** `09_inheritance/`
+
+   - Understand class hierarchies and polymorphism
+   - Study: basic_inheritance.cpp, polymorphism.cpp
+
+4. **File I/O:** `10_file_io/`
+
+   - Read and write files
+   - Practice: write_file.cpp, read_file.cpp
+
+5. **Templates:** `11_templates/`
+
+   - Generic programming for reusable code
+   - Learn: function_templates.cpp, class_templates.cpp
+
+6. **STL Containers:** `12_stl/`
+
+   - Master standard library data structures
+   - Explore: stl_vector.cpp, stl_map.cpp, stl_set.cpp
+
+7. **Exception Handling:** `13_exceptions/`
+
+   - Handle errors gracefully
+   - Study: basic_exception.cpp, multiple_catch.cpp
+
 ## 🐛 Bug Fixes Applied
 
 The `_bugs/` directory originally contained intentional bugs for learning. All bugs have been **fixed** in this version:
@@ -186,6 +255,8 @@ The `_bugs/` directory originally contained intentional bugs for learning. All b
 
 ## 💡 Key C++ Concepts Covered
 
+### Fundamentals
+
 - **Basic I/O:** `std::cout`, `std::cin`
 - **Data Types:** int, double, char, string, bool
 - **Operators:** Arithmetic, comparison, logical, assignment
@@ -193,8 +264,20 @@ The `_bugs/` directory originally contained intentional bugs for learning. All b
 - **Loops:** for, while, do-while, range-based for
 - **Data Structures:** Arrays, vectors, multi-dimensional arrays
 - **Functions:** Declaration, definition, parameters, return values
-- **Advanced:** Recursion, function overloading, pass by reference
-- **Best Practices:** Comments, naming conventions, code organization
+- **Advanced Functions:** Recursion, function overloading, pass by reference
+
+### Advanced Topics
+
+- **Pointers:** Memory addresses, dereferencing, pointer arithmetic
+- **Object-Oriented Programming:** Classes, objects, constructors, destructors
+- **Encapsulation:** Private/public members, getters, setters
+- **Inheritance:** Base and derived classes, protected members
+- **Polymorphism:** Virtual functions, function overriding, runtime polymorphism
+- **File I/O:** Reading, writing, and appending to files
+- **Templates:** Generic functions and classes, type parameters
+- **STL:** Vector algorithms, maps, sets, iterators
+- **Exception Handling:** Try-catch blocks, throwing exceptions, error handling
+- **Best Practices:** Comments, naming conventions, code organization, memory management
 
 ## 🛠️ IDE Setup (VS Code)
 

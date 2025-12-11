@@ -1,3 +1,10 @@
+/*
+ * fortune.cpp (BUG FIXED)
+ * Random fortune cookie generator
+ * Original bug: Used assignment (=) instead of comparison (==) in first if statement
+ * Demonstrates: random numbers, conditional statements, srand() and rand()
+ */
+
 #include <iostream>
 #include <stdlib.h>
 #include <ctime>
@@ -7,7 +14,7 @@ int main() {
     srand (time(NULL));
     int fortune = rand() % 10;
 
-    if (fortune = 0) {
+    if (fortune == 0) {
 
         std::cout << "Flattery will go far tonight.\n";
 
@@ -67,4 +74,5 @@ int main() {
 
     }
 
+    return 0;
 }

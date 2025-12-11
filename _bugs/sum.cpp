@@ -17,4 +17,5 @@ int main() {
 
     std::cout << "Sum: " << sum << "\n";
 
+    return 0;
 }

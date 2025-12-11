@@ -1,3 +1,10 @@
+/*
+ * recursion.cpp
+ * Demonstrates recursive function calls
+ * Example: Calculate sum of numbers from 1 to n using recursion
+ * Key concept: Function calls itself with modified parameters until base case
+ */
+
 #include <iostream>
 using namespace std;
 

@@ -1,3 +1,10 @@
+/*
+ * currency.cpp
+ * Currency converter using variables and arithmetic operations
+ * Demonstrates: variable declaration, user input, calculations
+ * Converts Colombian Pesos, Brazilian Reais, and Peruvian Soles to USD
+ */
+
 #include <iostream>
 
 int main()
@@ -21,4 +28,5 @@ int main()
     dollars = 0.049 * pesos + 0.1305 * reais + 0.1144 * soles;
 
     std::cout << "Total USD = $" << dollars << "\n";
+    return 0;
 }

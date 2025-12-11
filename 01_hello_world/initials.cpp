@@ -10,4 +10,5 @@ int main()
     std::cout << "O   O   Y  \n";
     std::cout << "O   O   Y  \n";
     std::cout << " OOO    Y  \n";
+    return 0;
 }
